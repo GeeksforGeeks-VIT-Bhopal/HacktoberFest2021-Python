@@ -11,7 +11,7 @@ This repository is to showcase your python skills and projects. You can either c
 
 https://hacktoberfest.digitalocean.com/
 
-## What is this Hacktoberfest2021-Python-Projects?
+## What is this Hacktoberfest2021-Python?
 
 - This repository is to showcase your python skills and projects. You can either contribute by sharing your project or make edits to the existing projects.
 
@@ -25,7 +25,7 @@ Strictly follow the given rules(unless mentioned optional) before sending us a P
 1. Fork this Repository(by clicking Fork Icon on top right of the repository), to your profile.
 2. Now, clone this repository to your Local Machine using:
 ``` bash
-git clone https://github.com/your-username/Hacktoberfest2021-Python-Projects.git
+git clone https://github.com/your-username/Hacktoberfest2021-Python.git
 
 ```
 3. Move into your desired Task folder, and create a new repository in format : **YOUR-PROJECT-TITLE-YOUR-NAME** . First name should be your **Unique Project Title** followed by your Github handle, which will be separated by ' **-** ' 
