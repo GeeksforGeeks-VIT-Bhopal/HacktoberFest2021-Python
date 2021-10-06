@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, send_file
 import pyqrcode
+import os
 
 app = Flask(__name__)
 
@@ -7,6 +8,8 @@ filename = 'qrcode.png'
 
 def generate_qrcode(text):
     qr = pyqrcode.QRCode(text)
+    if not os.path.exists('./static'):
+        os.mkdir('static')
     qr.png(f'./static/{filename}', scale=8)
 
 @app.route('/', methods=['GET', 'POST'])
