@@ -46,3 +46,9 @@ git push
 2. You will be banned immediately after 3 invalid PRs.
 3. Don't just Copy Paste the code from Internet, we will review your code and then only it will be merged.
 4. Modifing existing projects / Solving Issues will also be counted as contribution.
+
+<hr>
+
+Show some ❤️ by Starring the Repository 
+
+Maintained by: [Anmol Singh Yadav](https://github.com/IamLucif3r) & [Chaitanya Sapre](https://github.com/Circinusss)
