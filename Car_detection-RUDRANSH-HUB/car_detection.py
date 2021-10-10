@@ -3,9 +3,9 @@ import os
 import cv2
 import numpy as np
 
-alg="car_detection/carx.xml" 
+alg="Car_detection-RUDRANSH-HUB/carx.xml" 
 haar_cascade=cv2.CascadeClassifier(alg)  
-dataset="car_detection/datasets"  #making a folder in which our train data is captured
+dataset="Car_detection-RUDRANSH-HUB/datasets"  #making a folder in which our train data is captured
 sub_data="sub_dir" #make a dir inside datasets 
 path=os.path.join(dataset,sub_data)
 if not os.path.isdir(path):
