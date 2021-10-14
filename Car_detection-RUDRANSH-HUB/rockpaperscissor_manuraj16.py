@@ -17,21 +17,21 @@ print (f"computer chose {comp}")
 if comp=="s" :
     if you=="s" :
         print ('tie')
-    if you=="r" :
-        print ('you lose')
     if you=="p" :
+        print ('you lose')
+    if you=="r" :
         print ('you win')
 elif comp=="r" :
-    if you=="s" :
+    if you=="p" :
         print ('you win')
     if you=="r" :
         print ('tie')
-    if you=="p" :
-        print ('you loose')
-elif comp=="p" :
     if you=="s" :
         print ('you loose')
+elif comp=="p" :
     if you=="r" :
+        print ('you loose')
+    if you=="s" :
         print ('you win')
     if you=="p" :
         print ('tie')
