@@ -1,16 +1,21 @@
-import rsa
+import string
 
-(pubkey, privkey) = rsa.newkeys(512)
+shift = 9
+
 
 def encrypt_msg(msg):
-    utf8_msg = msg.encode("utf-8")
 
-    return rsa.encrypt(utf8_msg, pubkey)
+    alphabet = string.ascii_lowercase
+    shifted_alphabet = alphabet[shift:] + alphabet[:shift]
+    table = str.maketrans(alphabet, shifted_alphabet)
+
+    return msg.translate(table)
 
 
-def decrypt_msg(crypto):
-    uft8_msg = rsa.decrypt(crypto, privkey)
-    msg = uft8_msg.decode("utf-8")
+def decrypt_msg(msg):
 
-    return msg
+    alphabet = string.ascii_lowercase
+    shifted_alphabet = alphabet[(26 - shift):] + alphabet[:(26 - shift)]
+    table = str.maketrans(alphabet, shifted_alphabet)
 
+    return msg.translate(table)
