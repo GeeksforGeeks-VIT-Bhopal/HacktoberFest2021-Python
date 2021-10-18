@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QrCode Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+      .container {
+        max-width: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">QR Code Generator</h1>
+      <form class="my-5" role="form" method='POST' action='/'>
+        <div class="form-group">
+          <textarea name="qrcode-text" class="form-control" id="qrcode-text" placeholder="Enter the text for the QR Code" rows=7 autofocus required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin: 0 auto; display: block;">Submit</button>
+      </form>
+      <br>
+    {% if results['filename'] %}
+        <h2 class="text-center">Generated QR Code</h2>
+        <div style="display: flex; margin: 0 auto;">
+		        <a href="/download" style="margin: 0 auto;" class="btn btn-primary">Download</a>
+        </div>
+		<img style="display:block; margin: 0 auto;" src="{{ url_for('static', filename=results['filename'])}}">
+        <br>
+    {% endif %}
+    </div>
+    <div>
+    </div>
+    <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
