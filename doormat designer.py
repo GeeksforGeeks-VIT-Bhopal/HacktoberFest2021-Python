@@ -13,7 +13,7 @@
 #------------.|.------------
 
 
-print("Enter height and length of the mat with a space in between \nExample:- \n9 10")
+print("Enter height and length of the mat with a space in between \nExample:- \n9 27")
 a = input().split()
 height = int(a[0])
 width = int(a[1])
