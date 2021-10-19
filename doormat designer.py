@@ -1,3 +1,18 @@
+#This program prints pattern of a designer doormat based on dimensions given by the user
+#Input Format:-
+# 9 27
+#Output Format:-
+#------------.|.------------
+#---------.|..|..|.---------
+#------.|..|..|..|..|.------
+#---.|..|..|..|..|..|..|.---
+#----------WELCOME----------
+#---.|..|..|..|..|..|..|.---
+#------.|..|..|..|..|.------
+#---------.|..|..|.---------
+#------------.|.------------
+
+
 print("Enter height and length of the mat with a space in between \nExample:- \n9 10")
 a = input().split()
 height = int(a[0])
