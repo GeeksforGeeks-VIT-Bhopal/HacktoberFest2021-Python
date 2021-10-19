@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    font-family: sans-serif;
+    width: 100%;
+    text-align:center;
+    
+}
+
+.container{
+    text-align:center;
+    width:90%;
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+    margin: 0 auto;text-align: center;
+}
+table, th, td{
+    border-collapse:collapse;
+    border: 2px solid black;
+}
+td{
+    padding: 5px 10px;
+}
+form{
+    margin-top: 50px;
+}
+input{
+    padding: 5px;
+}
+input[type="text"]{
+    width: 350px;
+}
+input[type="submit"]{
+    width: 90px;
+    
+}
+a{
+    padding: 0 5px;
+}
