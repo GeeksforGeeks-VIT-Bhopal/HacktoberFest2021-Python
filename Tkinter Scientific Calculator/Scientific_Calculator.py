@@ -5,7 +5,7 @@ import tkinter.messagebox
 
 #creating a window
 root = Tk(className='Python Examples - Window Color')
-pic=PhotoImage(file="onee.png")
+pic=PhotoImage(file="Calculator_Logo.png")
 root.iconphoto(False, pic)
 root.configure(bg="black")
 root.title("Scientific Calculator")
@@ -13,7 +13,7 @@ root.title("Scientific Calculator")
 e=Entry(root,width=53,border=15,font="Verdana", bg="white", fg="black", justify=RIGHT, cursor="arrow")
 e.grid(row=0,column=0, columnspan=6, padx=10, pady=20,ipady=18)
 root.resizable(width=False, height=False)
-photo = PhotoImage(file ="one.png")
+photo = PhotoImage(file ="Corner_Logo.png")
 
 class calculator:
     def _init_(self):
