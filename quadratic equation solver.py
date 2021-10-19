@@ -1,3 +1,10 @@
+#This program prints the roots of a given equation. The user is expected to input a quadratic equation in the form of "ax^2 + bx + c".
+#Input format :
+#ax^2 + bx + c
+#
+#Output format:
+#The roots of the given quadratic equation are root1 and root2
+
 eq = input("Enter a quadratic equation in the form of ax^2 + bx + c : ")
 xsq_index = eq.index('x')
 plus_index = eq.index('+')
