@@ -49,7 +49,7 @@ def draw_window(red, yellow, red_bullets, yellow_bullets, red_health, yellow_hea
 
     red_health_text = health.render(
         "Health: " + str(red_health), 1, WHITE)
-    yellow_health_text = HEALTH_FONT.render(
+    yellow_health_text = health.render(
         "Health: " + str(yellow_health), 1, WHITE)
     win.blit(red_health_text, (w - red_health_text.get_width() - 10, 10))
     win.blit(yellow_health_text, (10, 10))
