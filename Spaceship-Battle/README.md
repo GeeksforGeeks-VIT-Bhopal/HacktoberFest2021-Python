@@ -19,7 +19,7 @@ A fun 2D Spaceship dual Battle Game made using Pygame.
 #### To run this on your PC, follow the steps:
 1. Fork this repository.
 2. Clone this repository by downloading the zip file.
-3. Now go for main.py, run the file amd ENJOY the game.
+3. Now go for main.py, run the file and ENJOY the game.
 
 
 ### Feel free to point out bugs by opening issues on the repository.
