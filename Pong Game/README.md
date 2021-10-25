@@ -14,5 +14,5 @@ A fun 2D dual Pong game made using Python.
 
 ### Feel free to point out bugs by opening issues on the repository.
 
-###### NB
+##### NB
 Make sure that you are accessible to the .wav file.
