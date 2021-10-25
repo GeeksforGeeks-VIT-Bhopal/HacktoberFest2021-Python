@@ -62,7 +62,7 @@ pen.goto(0, 260)
 pen.write("Player A : 0    Player B : 0", align = 'center', font = ('Courier', 24, 'normal'))
 
 
-# Function
+# Functions
 
 def paddle_a_up():
     y = paddle_a.ycor()
@@ -97,13 +97,16 @@ wn.onkeypress(paddle_b_down, "Down")
 # Main game loop
 
 while True:
+    
     wn.update()
 
     # Move the ball
+    
     ball.setx(ball.xcor() + ball.dx)
     ball.sety(ball.ycor() + ball.dy)
 
     # Border Checking
+    
     if ball.ycor() > 290:
         ball.sety(290)
         ball.dy *= -1
@@ -129,6 +132,7 @@ while True:
         pen.write("Player A : {}    Player B : {}".format(score_a, score_b), align = 'center', font = ('Courier', 24, 'normal'))
 
     # Paddle & Ball collision
+    
     if (ball.xcor() > 340 and ball.xcor() < 350) and (ball.ycor() < paddle_b.ycor() + 40 and ball.ycor() > paddle_b.ycor() - 40):
         ball.setx(340)
         ball.dx *= -1
