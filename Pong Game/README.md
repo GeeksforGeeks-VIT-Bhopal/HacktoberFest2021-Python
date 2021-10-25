@@ -12,7 +12,8 @@ A fun 2D dual Pong game made using Python.
 3. Now go for main.py, run the file and ENJOY the game.
 
 
-### Feel free to point out bugs by opening issues on the repository.
-
 ##### NB
 Make sure that you are accessible to the .wav file.
+
+
+### Feel free to point out bugs by opening issues on the repository.
