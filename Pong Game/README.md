@@ -3,7 +3,7 @@
 A fun 2D dual Pong game made using Python.
 
 #### Requirements for PC
-1. Python to be installed 
+1. Python3 to be installed 
 2. An IDE installed 
 
 #### To run this on your PC
